@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09ED18B1C0AE5CA0004A31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09ED18A1C0AE5CA0004A31A /* AppDelegate.swift */; };
+		D09ED18D1C0AE5CA0004A31A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09ED18C1C0AE5CA0004A31A /* ViewController.swift */; };
+		D09ED18F1C0AE5CA0004A31A /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09ED18E1C0AE5CA0004A31A /* Document.swift */; };
+		D09ED1921C0AE5CA0004A31A /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D09ED1901C0AE5CA0004A31A /* Document.xcdatamodeld */; };
+		D09ED1941C0AE5CA0004A31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09ED1931C0AE5CA0004A31A /* Assets.xcassets */; };
+		D09ED1971C0AE5CA0004A31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09ED1951C0AE5CA0004A31A /* Main.storyboard */; };
+		D09ED1A21C0AE5CB0004A31A /* onecutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09ED1A11C0AE5CB0004A31A /* onecutTests.swift */; };
+		D09ED1AD1C0AE5CB0004A31A /* onecutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09ED1AC1C0AE5CB0004A31A /* onecutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09ED19E1C0AE5CB0004A31A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09ED17F1C0AE5CA0004A31A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09ED1861C0AE5CA0004A31A;
+			remoteInfo = onecut;
+		};
+		D09ED1A91C0AE5CB0004A31A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09ED17F1C0AE5CA0004A31A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09ED1861C0AE5CA0004A31A;
+			remoteInfo = onecut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09ED1871C0AE5CA0004A31A /* onecut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onecut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09ED18A1C0AE5CA0004A31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D09ED18C1C0AE5CA0004A31A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D09ED18E1C0AE5CA0004A31A /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D09ED1911C0AE5CA0004A31A /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		D09ED1931C0AE5CA0004A31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09ED1961C0AE5CA0004A31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09ED1981C0AE5CA0004A31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09ED19D1C0AE5CB0004A31A /* onecutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onecutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09ED1A11C0AE5CB0004A31A /* onecutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onecutTests.swift; sourceTree = "<group>"; };
+		D09ED1A31C0AE5CB0004A31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09ED1A81C0AE5CB0004A31A /* onecutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onecutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09ED1AC1C0AE5CB0004A31A /* onecutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onecutUITests.swift; sourceTree = "<group>"; };
+		D09ED1AE1C0AE5CB0004A31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09ED1841C0AE5CA0004A31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED19A1C0AE5CB0004A31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED1A51C0AE5CB0004A31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09ED17E1C0AE5CA0004A31A = {
+			isa = PBXGroup;
+			children = (
+				D09ED1881C0AE5CA0004A31A /* Products */,
+				D09ED1891C0AE5CA0004A31A /* onecut */,
+				D09ED1A01C0AE5CB0004A31A /* onecutTests */,
+				D09ED1AB1C0AE5CB0004A31A /* onecutUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		D09ED1881C0AE5CA0004A31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1871C0AE5CA0004A31A /* onecut.app */,
+				D09ED19D1C0AE5CB0004A31A /* onecutTests.xctest */,
+				D09ED1A81C0AE5CB0004A31A /* onecutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09ED1891C0AE5CA0004A31A /* onecut */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1BA1C0AE6060004A31A /* Sources */,
+				D09ED1931C0AE5CA0004A31A /* Assets.xcassets */,
+				D09ED1981C0AE5CA0004A31A /* Info.plist */,
+			);
+			path = onecut;
+			sourceTree = "<group>";
+		};
+		D09ED1A01C0AE5CB0004A31A /* onecutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1A31C0AE5CB0004A31A /* Info.plist */,
+				D09ED1A11C0AE5CB0004A31A /* onecutTests.swift */,
+			);
+			path = onecutTests;
+			sourceTree = "<group>";
+		};
+		D09ED1AB1C0AE5CB0004A31A /* onecutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1AE1C0AE5CB0004A31A /* Info.plist */,
+				D09ED1AC1C0AE5CB0004A31A /* onecutUITests.swift */,
+			);
+			path = onecutUITests;
+			sourceTree = "<group>";
+		};
+		D09ED1BA1C0AE6060004A31A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1BF1C0AE6620004A31A /* Application */,
+				D09ED1BB1C0AE61D0004A31A /* Object Model */,
+				D09ED1BE1C0AE6590004A31A /* User Interface */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D09ED1BB1C0AE61D0004A31A /* Object Model */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED18E1C0AE5CA0004A31A /* Document.swift */,
+				D09ED1901C0AE5CA0004A31A /* Document.xcdatamodeld */,
+			);
+			path = "Object Model";
+			sourceTree = "<group>";
+		};
+		D09ED1BE1C0AE6590004A31A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED1951C0AE5CA0004A31A /* Main.storyboard */,
+				D09ED18C1C0AE5CA0004A31A /* ViewController.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		D09ED1BF1C0AE6620004A31A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D09ED18A1C0AE5CA0004A31A /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09ED1861C0AE5CA0004A31A /* onecut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09ED1B11C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecut" */;
+			buildPhases = (
+				D09ED1831C0AE5CA0004A31A /* Sources */,
+				D09ED1841C0AE5CA0004A31A /* Frameworks */,
+				D09ED1851C0AE5CA0004A31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onecut;
+			productName = onecut;
+			productReference = D09ED1871C0AE5CA0004A31A /* onecut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09ED19C1C0AE5CB0004A31A /* onecutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09ED1B41C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecutTests" */;
+			buildPhases = (
+				D09ED1991C0AE5CB0004A31A /* Sources */,
+				D09ED19A1C0AE5CB0004A31A /* Frameworks */,
+				D09ED19B1C0AE5CB0004A31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09ED19F1C0AE5CB0004A31A /* PBXTargetDependency */,
+			);
+			name = onecutTests;
+			productName = onecutTests;
+			productReference = D09ED19D1C0AE5CB0004A31A /* onecutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09ED1A71C0AE5CB0004A31A /* onecutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09ED1B71C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecutUITests" */;
+			buildPhases = (
+				D09ED1A41C0AE5CB0004A31A /* Sources */,
+				D09ED1A51C0AE5CB0004A31A /* Frameworks */,
+				D09ED1A61C0AE5CB0004A31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09ED1AA1C0AE5CB0004A31A /* PBXTargetDependency */,
+			);
+			name = onecutUITests;
+			productName = onecutUITests;
+			productReference = D09ED1A81C0AE5CB0004A31A /* onecutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09ED17F1C0AE5CA0004A31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jshin47;
+				TargetAttributes = {
+					D09ED1861C0AE5CA0004A31A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D09ED19C1C0AE5CB0004A31A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D09ED1861C0AE5CA0004A31A;
+					};
+					D09ED1A71C0AE5CB0004A31A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D09ED1861C0AE5CA0004A31A;
+					};
+				};
+			};
+			buildConfigurationList = D09ED1821C0AE5CA0004A31A /* Build configuration list for PBXProject "onecut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09ED17E1C0AE5CA0004A31A;
+			productRefGroup = D09ED1881C0AE5CA0004A31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09ED1861C0AE5CA0004A31A /* onecut */,
+				D09ED19C1C0AE5CB0004A31A /* onecutTests */,
+				D09ED1A71C0AE5CB0004A31A /* onecutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09ED1851C0AE5CA0004A31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09ED1941C0AE5CA0004A31A /* Assets.xcassets in Resources */,
+				D09ED1971C0AE5CA0004A31A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED19B1C0AE5CB0004A31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED1A61C0AE5CB0004A31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09ED1831C0AE5CA0004A31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09ED1921C0AE5CA0004A31A /* Document.xcdatamodeld in Sources */,
+				D09ED18D1C0AE5CA0004A31A /* ViewController.swift in Sources */,
+				D09ED18B1C0AE5CA0004A31A /* AppDelegate.swift in Sources */,
+				D09ED18F1C0AE5CA0004A31A /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED1991C0AE5CB0004A31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09ED1A21C0AE5CB0004A31A /* onecutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09ED1A41C0AE5CB0004A31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09ED1AD1C0AE5CB0004A31A /* onecutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09ED19F1C0AE5CB0004A31A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09ED1861C0AE5CA0004A31A /* onecut */;
+			targetProxy = D09ED19E1C0AE5CB0004A31A /* PBXContainerItemProxy */;
+		};
+		D09ED1AA1C0AE5CB0004A31A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09ED1861C0AE5CA0004A31A /* onecut */;
+			targetProxy = D09ED1A91C0AE5CB0004A31A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09ED1951C0AE5CA0004A31A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09ED1961C0AE5CA0004A31A /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09ED1AF1C0AE5CB0004A31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09ED1B01C0AE5CB0004A31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D09ED1B21C0AE5CB0004A31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D09ED1B31C0AE5CB0004A31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D09ED1B51C0AE5CB0004A31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onecut.app/Contents/MacOS/onecut";
+			};
+			name = Debug;
+		};
+		D09ED1B61C0AE5CB0004A31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onecut.app/Contents/MacOS/onecut";
+			};
+			name = Release;
+		};
+		D09ED1B81C0AE5CB0004A31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = onecut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D09ED1B91C0AE5CB0004A31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = onecutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.problematic.onecutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = onecut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09ED1821C0AE5CA0004A31A /* Build configuration list for PBXProject "onecut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09ED1AF1C0AE5CB0004A31A /* Debug */,
+				D09ED1B01C0AE5CB0004A31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09ED1B11C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09ED1B21C0AE5CB0004A31A /* Debug */,
+				D09ED1B31C0AE5CB0004A31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09ED1B41C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09ED1B51C0AE5CB0004A31A /* Debug */,
+				D09ED1B61C0AE5CB0004A31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09ED1B71C0AE5CB0004A31A /* Build configuration list for PBXNativeTarget "onecutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09ED1B81C0AE5CB0004A31A /* Debug */,
+				D09ED1B91C0AE5CB0004A31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D09ED1901C0AE5CA0004A31A /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D09ED1911C0AE5CA0004A31A /* Document.xcdatamodel */,
+			);
+			currentVersion = D09ED1911C0AE5CA0004A31A /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D09ED17F1C0AE5CA0004A31A /* Project object */;
+}
